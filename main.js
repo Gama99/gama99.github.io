@@ -12,4 +12,4 @@ async function toggleFan() {
 }
 
 /* This fufcntion toggle the device, we need to call this function by using some wtahc feature to trigger*/
-toggleFan();
+// toggleFan();
