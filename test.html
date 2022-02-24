@@ -29,7 +29,7 @@
       log("Received: "+JSON.stringify(v));
       if (v.indexOf("Pressed")>=0) {
         log("Calling IFTTT");
-        ifttt();
+        main.toggleFan();
       }
     }
 
